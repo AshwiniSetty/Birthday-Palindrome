@@ -158,7 +158,7 @@ function reverseStr(str) {
   
       if(isPalindrome){
          resultRef.innerText = 'Hurray! Your birthday is a palindrome!!';
-         outputImage = document.getElementById("myImg").src = "happy.svg";
+         outputImage = document.getElementById("myImg").src = "images/happy.svg";
           
       }
       else {
@@ -166,17 +166,17 @@ function reverseStr(str) {
 
         if(ctr === 1){
           resultRef.innerText = `Next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} day!`;
-        outputImage = document.getElementById("myImg").src = "sad.svg";
+        outputImage = document.getElementById("myImg").src = "images/sad.svg";
         }else{
           resultRef.innerText = `Next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days!`;
-          outputImage = document.getElementById("myImg").src = "sad.svg";
+          outputImage = document.getElementById("myImg").src = "images/sad.svg";
         }        
         
     }
     }
     else{
         resultRef.innerText = 'Enter the date';
-        outputImage = document.getElementById("myImg").src = "date.png";
+        outputImage = document.getElementById("myImg").src = "images/date.png";
         
     }
 }

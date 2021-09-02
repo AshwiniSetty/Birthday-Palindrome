@@ -105,6 +105,7 @@ main {
   padding: 0.7rem 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: var(--primary-color);
 }
 
 .list-non-bullet {
@@ -115,4 +116,12 @@ main {
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
+}
+
+
+
+.img-icon {
+  width: 40px;
+  padding: 0.3rem;
+  height: 35px;
 }
